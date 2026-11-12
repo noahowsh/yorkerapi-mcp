@@ -1,0 +1,35 @@
+{
+  "name": "yorkerapi-mcp",
+  "version": "1.1.6",
+  "description": "Cricket ball by ball in every format, men's and women's, with sportsbook match-winner prices. REST and MCP.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "yorkerapi": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "cricket",
+    "ipl",
+    "sports",
+    "api",
+    "odds",
+    "stats"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noahowsh/yorkerapi-mcp"
+  },
+  "homepage": "https://yorkerapi.com",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1"
+  }
+}

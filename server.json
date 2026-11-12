@@ -1,0 +1,124 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.noahowsh/yorkerapi",
+  "title": "YorkerAPI",
+  "description": "Cricket ball by ball in every format, men's and women's, joined to sportsbook match-winner prices.",
+  "version": "1.1.6",
+  "license": "MIT",
+  "icons": [
+    {
+      "src": "https://yorkerapi.com/brand-icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "homepage": "https://yorkerapi.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.yorkerapi.com/mcp",
+      "headers": [
+        {
+          "name": "x-api-key",
+          "description": "Your YorkerAPI API key. Get a free key (500 credits every month) at yorkerapi.com/signup",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "name": "list_competitions",
+      "description": "Every competition we hold with its key, format, match count and seasons",
+      "readOnlyHint": true
+    },
+    {
+      "name": "list_teams",
+      "description": "Team ids for international sides and franchises, men's and women's",
+      "readOnlyHint": true
+    },
+    {
+      "name": "search_players",
+      "description": "Find a player's id by name, or list a team's players",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_schedule",
+      "description": "Upcoming and live matches in every competition, with both sides' ratings",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_matches",
+      "description": "Results by competition, season, team, venue or date, with scores and margins",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_ratings",
+      "description": "Our Elo ratings by format, best first",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_match",
+      "description": "One match in full: batting and bowling cards, ratings and every book's opening and closing price",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_player",
+      "description": "A career by format: runs, average, strike rate, wickets, economy, hundreds, best figures",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_player_stats",
+      "description": "A player split by season, competition, phase (powerplay, middle, death) or format",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_player_matches",
+      "description": "A player's matches with batting and bowling in each innings",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_matchup",
+      "description": "A batter against a bowler: balls, runs, strike rate, dots and every dismissal",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_leaders",
+      "description": "Leaders in runs, average, strike rate, sixes, wickets, economy",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_venue",
+      "description": "How a ground plays: par totals, batting first against chasing, toss effect",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_odds",
+      "description": "Match-winner prices by sportsbook, opening and closing, from mid-2020",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_deliveries",
+      "description": "Ball-by-ball rows for a match, a batter or a bowler, with our win probability",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_win_probability",
+      "description": "A match's win-probability worm over by over, and the balls that swung it",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_market_vs_model",
+      "description": "In-play prices beside our win probability, lined up to the exact ball",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_line_movement",
+      "description": "Every pregame snapshot by book, the market line over time, and in-play prices",
+      "readOnlyHint": true
+    }
+  ]
+}
