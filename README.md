@@ -30,10 +30,18 @@ YORKERAPI_API_KEY=your_key node index.js
 
 It forwards to the hosted server with your key, so every tool and credit cost is the same.
 
+## Use it in
+
+- **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.yorkerapi.com/mcp` as a remote MCP server. Step-by-step for each: https://yorkerapi.com/mcp
+- **Gemini CLI:** `gemini extensions install https://github.com/noahowsh/yorkerapi-mcp`
+- **Cursor:** the [SportsDataHQ plugins for Cursor](https://github.com/noahowsh/sportsdatahq-cursor-plugins)
+- **Google Sheets:** `=SDHQ("yorkerapi","list_competitions")` fills a live table: https://sportsdatahq.com/sheets
+- **REST:** `POST https://mcp.yorkerapi.com/v1/<tool>` with an `x-api-key` header: https://yorkerapi.com/docs
+
 ## Tools (18)
 
 | Tool | What it returns |
-|---|---|
+|------|-----------------|
 | `list_competitions` | Every competition we hold with its key, format, match count and seasons |
 | `list_teams` | Team ids for international sides and franchises, men's and women's |
 | `search_players` | Find a player's id by name, or list a team's players |
