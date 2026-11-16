@@ -1,0 +1,14 @@
+{
+  "name": "yorkerapi",
+  "version": "1.1.6",
+  "description": "YorkerAPI MCP server for cricket data: ball by ball in every format, men's and women's, with match-winner prices.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "yorkerapi": {
+      "httpUrl": "https://mcp.yorkerapi.com/mcp",
+      "headers": {
+        "x-api-key": "${YORKERAPI_API_KEY}"
+      }
+    }
+  }
+}
