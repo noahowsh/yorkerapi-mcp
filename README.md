@@ -4,7 +4,7 @@
 
 **The cricket data API.** Ball by ball for 23,241 matches in every format, men's and women's, from Tests and ODIs to the IPL, the Big Bash and The Hundred, with players, venues, our own Elo ratings and per-ball win probability. From mid-2020, each sportsbook's match-winner price sits beside the match it belongs to. REST API and MCP server. 500 free credits every month, no card.
 
-Website: https://yorkerapi.com · Docs: https://yorkerapi.com/docs · Get a key: https://yorkerapi.com/signup
+Website: https://yorkerapi.com?utm_source=github&utm_medium=readme&utm_campaign=yorkerapi-mcp · Docs: https://yorkerapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=yorkerapi-mcp · Get a key: https://yorkerapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=yorkerapi-mcp
 
 ```
 You:    "How has Jasprit Bumrah bowled at the death in the IPL, season by season?"
@@ -32,11 +32,11 @@ It forwards to the hosted server with your key, so every tool and credit cost is
 
 ## Use it in
 
-- **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.yorkerapi.com/mcp` as a remote MCP server. Step-by-step for each: https://yorkerapi.com/mcp
+- **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.yorkerapi.com/mcp` as a remote MCP server. Step-by-step for each: https://yorkerapi.com/mcp?utm_source=github&utm_medium=readme&utm_campaign=yorkerapi-mcp
 - **Gemini CLI:** `gemini extensions install https://github.com/noahowsh/yorkerapi-mcp`
 - **Cursor:** the [SportsDataHQ plugins for Cursor](https://github.com/noahowsh/sportsdatahq-cursor-plugins)
-- **Google Sheets:** `=SDHQ("yorkerapi","list_competitions")` fills a live table: https://sportsdatahq.com/sheets
-- **REST:** `POST https://mcp.yorkerapi.com/v1/<tool>` with an `x-api-key` header: https://yorkerapi.com/docs
+- **Google Sheets:** `=SDHQ("yorkerapi","list_competitions")` fills a live table: https://sportsdatahq.com/sheets?utm_source=github&utm_medium=readme&utm_campaign=yorkerapi-mcp
+- **REST:** `POST https://mcp.yorkerapi.com/v1/<tool>` with an `x-api-key` header: https://yorkerapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=yorkerapi-mcp
 
 ## Tools (18)
 
@@ -72,7 +72,7 @@ Competitions are filters on one dataset: Tests, ODIs and T20Is, the IPL, Big Bas
 
 ## Pricing
 
-500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://yorkerapi.com/pricing
+500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://yorkerapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=yorkerapi-mcp
 
 ## Data credits
 
